@@ -1,9 +1,11 @@
+package MyGit;
 
 public class MyClass {
 
-	public MyClass(int a) {
+	public int MyClass(int a) {
 		int c;
 		c = a * a;
+		return c;
 	}
 
 }
