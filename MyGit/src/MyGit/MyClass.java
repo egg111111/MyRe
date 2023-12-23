@@ -7,5 +7,11 @@ public class MyClass {
 		c = a * a;
 		return c;
 	}
+	
+	public void main() {
+		int num;
+		num = MyClass(5);
+		System.out.println("num = " + num);
+	}
 
 }
